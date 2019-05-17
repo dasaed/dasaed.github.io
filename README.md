@@ -1,3 +1,7 @@
+<h1> Disclaimer </h1>
+<p> I am learning to use the MDBootstrap Template. For now, I just copied their free template and added it here </p>
+
+
 <p align="center">
   <a href="https://mdbootstrap.com/docs/jquery/getting-started/download/">
     <img src="https://mdbootstrap.com/img/Marketing/general/logo/medium/mdb-r.png">
