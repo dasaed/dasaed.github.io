@@ -1,0 +1,42 @@
+
+div p:first-letter{
+	color:blue;
+	font-weight:bold;
+	font-size:18px;
+}
+
+
+#parent p:nth-child(3n)/*(even) or (odd) or (#n)*/{ 
+background-color:black;
+color:white;	
+	
+}
+
+
+
+span:hover{
+	background-color:red;
+	color:white;
+}
+
+a{
+		
+		text-decoration:none;
+		
+}
+
+a:hover{
+	color:#00ff00;
+	text-decoration: underline;
+}
+
+a:active{
+	color:red;
+	font: bold;
+}
+
+a:visited{
+	color: green;
+	background-color:black;
+	
+}

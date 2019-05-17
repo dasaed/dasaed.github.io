@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="ntf-8"/>
+	<title> JavaScript Tutorials </title>
+	<script type="text/javascript">
+		/*This document was created by:
+		Carlo Salcedo
+		This is just a reminder tutorial page. 
+		*/
+	
+		/*
+		function makeAwesome(){
+				//code goes here
+				alert('you are awesome!');
+			}
+			
+			makeAwesome();
+		*/
+		function makeAwesome(){
+			alert("you are awesome!!!");
+		}
+		
+		/* Just uncomment here to have the makeAwesome and alertM functions appear
+		makeAwesome();
+		
+		function alertM(message){
+			alert(message);
+		};
+		alertM("hello");
+		*/
+		function addnum(num1,num2){
+				var answer =  num1 + num2;
+				document.write(answer + "<br/>" + "<br/>");
+			};
+			
+	//global and local variables
+	var champion="fizz"; //global variable
+	function printChampion(){
+		var champ="lux";//local variable
+		document.write(champion + " inside function<br/>");
+		document.write(champ + " inside function<br/>");
+	};
+	printChampion();
+	document.write(champion + " outside function <br/>");
+	document.write("<br/><br/>");
+	document.write("Arrays<br/>");
+	var cars = new Array("ferrari","porsche","jaguar","lamborghini","mclaren");//remember that Array has to begin with a capital letter or otherwise it wont work
+	document.write(cars[0]);
+	document.write("<br/><br/>");
+	
+		var food = new Array(5);//tells javaScript that the array can only have 5 spaces
+		food[0] = "burger";
+		food[1] = "soda";
+		food[2] = "hot dog";
+		food[3] = "fries";
+		food[4] = "cake";
+		document.write(food);
+		var anything = new Array();//unlimited size for the array
+		anything[0] = "burger";
+		anything[1] = "soda";
+		anything[2] = "hot dog";
+		anything[3] = "alpha";
+		anything[4] = "hot dog";
+		anything[5] = "width";
+		anything[6] = "height";
+		
+		document.write("<br/> how many elementes are in array \"anything\"\ ???  "+anything.length);
+		
+	document.write("<br/><br/>IF STATEMENTS<br/><br/>");	
+	
+	var day="thursday";
+	
+	if(day=="friday"){ //single = sign is used to assign value a to b (a=b). 
+		document.write("It's friday!!!");
+		/*
+		for comparisons, use:
+		==	equal to
+		>=	greatar than or equal to
+		> 	greater than
+		<=	less than or equal to
+		< 	less than
+		!=	different from 
+		*/
+	}
+	else{
+		document.write("Sorry, it's not friday<br/>");
+	};
+	var age = 17;
+	if (age >= 18){
+		document.write("welcome to the casino! ;)");
+	}
+	else if(age == 17) {
+		document.write("sorry bro, wait one more year");
+	}
+	else{
+		document.write("sorry, you are still too young.");
+	}
+	
+	
+	</script>
+</head>
+<body>
+
+<article>
+<header><h1>JavaScript Tutorials</h1></header>
+
+<p>
+<em>Statement</em> is when we tell the computer to do something. For example, <strong>document.write("Hello World &ltbr/&gt")</strong>. If you include HTML tags inside the document write, the browser actually interprets it as HTML, and understand the <strong>&ltbr/&gt</strong> tag. 
+</p>
+
+<p>
+<em>Comments</em> are just good practice, for you to remember, or for other programers to understand what you are trying to do. You can add comments in JavaScript using // or /*  */. 
+</p>
+
+<p>error console is now browser console, and the firefox shortcut option is shift+ctrl+j</p>
+
+<p><strong>variables</strong> in JavaScript must follow certain rules, such as:
+<ol>
+<li>All variables must start with a capital, lower case or underscore only</li>
+<li>No spaces are allowed in variable names, just use an underscore</li>
+<li>Before a variable can be used, it must be first declared</li>
+<li>No JavaScript keywords are allowed to be used for variables, for example: var, function, etc. </li>
+<li>Variables are case sensitive</li>
+<li>Variable names are called <strong><em>identifiers</strong></em></li>
+
+</ol>
+
+<h2>Data Types in JavaScript</h2>
+<p>
+There are many different types of data types:
+<ul>
+<li><strong>Integer</strong>: var a = 21;</li>
+<li><strong>float</strong>: var a = 21.1;</li>
+<li><strong>String</strong>: var a = "he said, \"something\" "</li>
+<li><strong>Boolean</strong>: var a = false | true/false</li>
+</ul>
+</p>
+
+<h2>Operators</h2>
+<p>
+Inside of JavaScript, you can do operations. <br/>
+var a = 3;<br/>
+var b = 4;<br/>
+var c = a + b;<br/>
+var d = a / b;<br/>
+var e = a * b;<br/>
+var f = a % b; mod<br/>
+<br/>
+</p>
+
+<h2>Strings</h2>
+<p>var name = "Created by Dasaed";</p>
+<p>var quote = "\"Life doesn't get easier. You just get stronger. \" -Anonymous</p>
+
+<h2>Events</h2>
+<p>Actions that execute, when a certain event triggers. The following links contains a list of events in javascript:</p>
+<p>
+	<a href="http://www.javascriptkit.com/jsref/events.shtml">javascriptkit.com</a>
+	<a href="http://www.w3schools.com/jsref/dom_obj_event.asp">w3schools list</a>
+	</p>
+<p>you can use alert to display a pop-up message.
+
+</p>
+	<form>
+	<input type="button" value="click me" onclick="alert('you clicked me');" />
+	<br/>
+	<br/>
+	<input type="button" value="hover mouse over me" onmouseover="alert('you hovered over me');" />
+	<br/>
+	<br/>
+	<input type="button" value="makeAwesome" onclick="makeAwesome();"/> <!-- "makeAwesome() is javaScript-->
+	
+	<p>functions with multiple parameters</p>
+<script type="text/javascript">
+		addnum(5,2);
+		addnum(15,20);
+		addnum(14,5);
+</script>
+<p>List of posible events in JavaScript</p>
+	
+</form>
+
+
+<p>Arrays</p>
+<p>a variable that can store a group of data represented under one variable data. </p>
+
+<p>nesting if statements: if within ifs</p>
+<p>complex if statements: using AND(&&) or OR(||) conditions</p>
+<p>Complex if statemtes are done with 2 parenthesis. Example:</p>
+<p>if((user_age>=min_age) && (user_age<=max_age)) </p>
+
+<script type="text/javascript">
+var user_age=24;
+var max_age=30;
+var min_age=18;
+
+if(user_age>=min_age){
+	if (user_age<=max_age){
+		document.write("congratulations, you are between the age range");
+	}
+}
+else{
+	document.write("you are either too old, or too young. sorry.");
+}
+
+
+</script>
+<p></p>
+<p>Switch Statement</p>
+<script type="text/javascript">
+var car="ferrari";
+
+switch(car){
+	case "ferrari":
+		document.write('It\'s an Italian Stallion');
+		break;
+	case "porsche":
+		document.write('German Precision eh');
+		break;
+	case "dodge":
+		document.write('American muscle');
+		break;
+	default:
+		document.write('No match was found in the switch statement');
+}
+
+
+</script>
+<p></p>
+<p>While loop</p>
+<script type="text/javascript">
+var counter=1;
+while(counter<=10){
+	document.write("<p>This is paragraph  "+" "+counter+"</p>");
+	counter++;
+	}
+
+</script>
+<p></p>
+<p>Do While loop</p>
+<p>When you want your code to run atleast once before checking the condition, even if the condition is false.</p>
+<script type="text/javascript">
+var counter=11;
+
+do{
+	document.write("<p>This is paragraph  "+" "+counter+"</p>");
+	counter++;
+	}while(counter<=10);
+
+</script>
+<p></p>
+
+<p></p>
+<p>The For Loop</p>
+<script type="text/javascript">
+// for (start;condition;increment){ statements }
+for(i=1;i<=10;i++){
+	document.write("<p>This is done with a for loop for "+" "+i+" times</p>");
+}
+
+</script>
+<p></p>
+<p></p>
+<h1>Objects, Properties and Methods</h1>
+<p>JavaScript is object based programming</p>
+<p>A method is just an "action" that can be performed with the objects</p>
+<script type="text/javascript">
+var x =  "My name is Carlos";
+document.write(x.length); //x.length=objectname.propertyname
+document.write("<br/>");
+document.write(x.toUpperCase()); //when you have (), it is a method
+document.write("<br/>");
+document.write(x.toLowerCase()); //x.toLowerCase() = Method
+
+</script>
+<p></p>
+<p>REFERENCING OBJECTS</p>
+<p>Allows the programmer to change an object in the document</p>
+<script type="text/javascript">
+function change(){
+	var parag = document.getElementById('para');
+	parag.innerHTML = "That tickles!!!";
+	//another way to do it, without creating any other variables;
+	//document.getElementById('para').innerHTML = "That tickles!!!";
+}
+
+document.getElementById('para'); //the id goes in the ''
+</script>
+<p id="para" onclick="change();"> <u>Click Me, I'm an interesting Paragraph</u> </p>
+<p></p>
+<p></p>
+<p></p>
+<p>
+<script type="text/javascript">
+function change(){
+	var parag = document.getElementById('para');
+	parag.innerHTML = "That tickles!!!";
+	//another way to do it, without creating any other variables;
+	//document.getElementById('para').innerHTML = "That tickles!!!";
+}
+
+document.getElementById('para'); //the id goes in the ''
+</script>
+</p>
+<p></p>
+<p></p>
+<p>Changing Images</p>
+<p>
+
+<img src="ice.jpg" height='300' width='400' alt="ice" id="ice" onclick="changei()"/>
+<script type="text/javascript">
+var image_tracker = "i";
+
+
+function changei(){
+var image = document.getElementById('ice');
+	if (image_tracker=="i"){
+		image_tracker="f";
+		image.src="fire.jpg";
+	}
+	else{
+		image_tracker="i";
+		image.src="ice.jpg";
+	}
+}
+
+</script>
+
+</p>
+<p></p>
+<p>Changing Images with timers</p>
+<p>
+
+<img src="ice.jpg" height='300' width='400' alt="ice" id="fire" onclick="changeit()"/>
+<script type="text/javascript">
+var image_tracker = "i";
+
+
+function changeit(){
+var image = document.getElementById('fire');
+	if (image_tracker=="i"){
+		image_tracker="f";
+		image.src="fire.jpg";
+	}
+	else{
+		image_tracker="i";
+		image.src="ice.jpg";
+	}
+}
+
+setTimeout('changeit()',2000); //time is in milliseconds
+/*
+The setTimeout method changes the image only once.
+To use more than one setTimeout or setInterval, you must add them as variables
+
+*/
+var timer = setInterval('changeit()',2000)
+//clearInterval(timer);//Stops an interval from happening
+//example:
+//<img src="ice.jpg" height='300' width='400' alt="ice" id="fire" onclick="clearInterval(timer);"/>
+setTimeout('clearInterval(timer)',10000) //The image changes, but will stop changing after 10 seconds
+</script>
+
+</p>
+<p></p>
+<p></p>
+<p>JavaScript - Forms</p>
+<p id="welcome">
+</p>
+<form>
+What is your name?<input type="text" id="nombre"/><br/>
+<input type="button" value="done" onclick="write_name();"/>
+</form>
+<script type="text/javascript">
+
+function write_name(){
+	var welcome_para=document.getElementById('welcome');
+	var nombre=document.getElementById('nombre');
+	welcome_para.innerHTML="Welcome <strong>"+nombre.value+ "</strong><br/>"; 
+	//variable nombre  atributo value = nombre.value
+}
+
+	//welcome_para.innerHTML="Welcome <strong>"+nombre.value+ "</strong><br/>"; 
+
+
+</script>
+<div id= 'prueba' >
+Hola como estas
+
+</div>
+<p></p>
+<p></p>
+<p></p>
+<p>JavaScript - Forms(text,radiobutton,check boxes)</p>
+<p id="welcome">
+</p>
+<form action="submit.html" method="POST" onsubmit="return check_info();"><!-- check_info() can be any function -->
+Username: <input type="text" name="username" id="username" placeholder="Username"/>
+Password: <input type="password" name="password" id="password" placeholder="Password"/>
+<p>Are you a boy or a girl?</p>
+Boy<input type="radio" name="gender" value="Boy" id="gender_boy"><br/>
+Girl<input type="radio" name="gender" value="Girl" id="gender_girl"><br/> <!--name=group of radio button value=What is sent based on the selected function -->
+<input type="submit" value="login"/>
+</form>
+<script type="text/javascript">
+
+function check_info(){
+	var passs1 = "10000";
+	var passs2 = "200";
+	
+	var username=document.getElementById('username').value;
+	var password=document.getElementById('password').value;	
+
+	if(username=="" || password==""){
+		alert('Please fill in all the fields');
+		return false;//sends the user back to the page they are
+	}
+	else{
+	passs1="1";
+	//	return true;//allows the user to proceed to the next part of the webpage
+	}
+	
+	var boy_check= document.getElementById('gender_boy').checked;
+	var girl_check= document.getElementById('gender_girl').checked;
+	
+	if(boy_check == false && girl_check==false){
+		alert('Please select a gender');
+		return false;
+	}else{
+	passs2="1"
+	// return true;
+	}
+	
+	if(passs1=="1" && passs2=="2"){
+	return true;
+	}
+	else{
+	}
+	
+	
+}
+
+</script>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+</p>
+<form action="submit.html" method="POST" onsubmit="return check_box();">
+<p>What are your interests?</p>
+sports <input type="checkbox" name="interest" value="sports" id="sports1"/><br/>
+electronics<input type="checkbox" name="interest" value="electronics" id="electronics1"/><br/>
+reading<input type="checkbox" name="interest" value="reading" id="reading1"/><br/>
+<input type="submit" value="login"/>
+</form>
+
+<script type="text/javascript">
+var 
+</script>
+<script type="text/javascript">
+function check_box(){
+		var sports = document.getElementById('sports1').checked;//checked property returns true if it was checked, false otherwise
+		var electronics = document.getElementById('electronics1').checked;
+		var reading = document.getElementById('reading1').checked;
+	
+	if (sports==false && electronics==false && reading==false){
+		alert('Please tell me what are your interests');
+		return false;
+	}else{
+		return true;
+	}
+
+	}
+</script>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+
+
+
+
+
+<footer>
+Made by: Carlos Salcedo
+</footer>
+</article>
+	
+</body>
+</html>

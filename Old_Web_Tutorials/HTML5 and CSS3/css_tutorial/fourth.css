@@ -1,0 +1,94 @@
+ul {
+	list-style-type:lower-greek; /*decimal, square, disc, lower-greek, katakana, */ 
+}
+
+div ul{
+	list-style-image:url(lips.jpg);
+	line-height:200%;
+}
+
+.rounded{
+	background-color:orange;
+	width:200px;
+	text-align:center;
+	padding: 50px 0px;
+	border-radius:15px;
+	border-bottom-right-radius:70px;
+}
+
+.gradient{
+	padding:50px 25px;
+	background-color: #0299ef; /*use background color in case gradients are supported.*/
+	/*background-image:linear-gradient(to top, #04507b 20%, #0299ef 20%, #000FFF, #900f0f, #f412ff); /*linear-gradient(to top/bottom, color start, color finish)*/
+	background-image:linear-gradient(to top, #04507b 40%, #ff00ff, #000000); /*linear-gradient(to top/bottom, color start, color finish)*/
+	}
+
+.pic {
+	float:left; /* left/right   The text will actually wrap around the picture*/
+}
+
+.para2 { 
+clear: both; /*it just makes sure that whatever its given this property, will be crlear of whatever was floated around it. right/left/both */
+}
+
+.left_c{
+	float: left;
+	background-color:navy;
+	height:200px;
+	width:200px;
+	color:white;
+	margin:5px;
+	border:black;
+	border-width:5px;
+	border-style:dotted;
+	text-align:center;
+}
+
+.mid_c{
+	float:left;
+	background-color:red;
+	height:200px;
+	width:200px;
+	color:white;
+	margin:5px;
+	border:black;
+	border-width:5px;
+	border-style:double;
+	text-align:center;	
+}
+
+.right_c{
+	float:left;
+	background-color:green;
+	height:200px;
+	width:200px;
+	color:white;
+	margin:5px;
+	border:black;
+	border-width:5px;
+	border-style: dashed;
+	text-align:center;
+}
+	
+	
+a{
+	size:48px;
+	text-decoration:none;
+		
+}
+
+a:hover{
+	color:navy;
+	text-decoration: underline;
+}
+
+a:active{
+	color:red;
+	font-weight: bold;
+}
+
+a:visited{
+	color: green;
+	background-color:black;
+	
+}

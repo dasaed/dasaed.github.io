@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+ 
+	<head>
+	<meta charset="utf=8"/>
+		<title>Tables and Forms</title>
+			<link rel="stylesheet" href="tables.css"/>
+</head>
+<body>
+<div class="container">
+	<header>
+	<img src="sample_logo.png" alt="logo area" height="106" width="90"/ class="logo">
+		<nav class="top_nav">
+			<ul>
+			<li><a href="">Home</a></li>
+			<li><a href="">About</a></li>
+			<li><a href="">Other pages</a></li>
+			<li><a href="">Contact</a></li>
+			</ul>
+		</nav>
+		<div class="clear"></div>
+	</header>
+	
+	<section class="left_side">
+		<article>
+			<header>
+			<h2> Never use Tables to Layout a Webpage</h2>
+			<h3> Using Tables  </h3>
+			</header>
+			<p>The &ltcaption&gt tag should be used inside a table.</p>
+			
+			<table class="try1">
+			
+			<caption>Best Selling Games World Wide According to Wikipedia</caption>
+				
+				<thead>
+				<tr>
+						<th>Rank</th>
+						<th>Title</th>
+						<th>Release year</th>
+						<th>Copies Sold</th>
+				</tr>
+				</thead>
+				<tbody>
+				<tr>
+					<td>1</td>
+					<td>Tetris</td>
+					<td>1984</td>
+					<td>143 million</td>
+				
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Wii Sports</td>
+					<td>2006</td>
+					<td>81.99 million</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Minecraft</td>
+					<td>2009</td>
+					<td>49.5 million</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>Super Mario Bros.</td>
+					<td>1985</td>
+					<td>35.53 Million</td>
+					
+				</tr>
+				</tbody>
+				<tfoot>
+				<tr>
+				<td colspan=4>Info from wikipedia</td>
+				</tr>
+				</tfoot>
+				
+			</table>
+			
+			<p>Inside of the &lttable&gt tag we include a &lttr&gt which stands for table row. Inside the &lttr&gt tag, the first row should have &ltth&gt tags, which stand for table headers. After the &ltth&gt tag, all rows after it should have a &lttd&gt tag, which stands for table data. the &lttd&gt tags will ultimately represent the data to be filled inside the table. 
+			</p>
+			
+			<footer>
+				This personal tutorial was written by Carlos Salcedo. 
+			</footer>
+		</article>
+	</section>
+	
+	<aside class="right_side">
+		<div>
+			<h2>Social Links</h2>
+			<ul>
+				<li><a href="">youtube</a></li>
+				<li><a href="">facebook</a></li>
+				<li><a href="">twitter</a></li>
+			</ul>
+		</div>
+		
+		<div>
+			<h2>Related articles or stuff</h2>
+			<article>
+				<header>
+				<h3> This can be a heading for another story </h3>
+				</header>
+				<p>something to get the user interested in the story.</p>
+				<footer><a href="">See more</a>
+				</footer>
+			</article>
+		</div>
+		
+
+	</aside>
+<div class="container">
+<br/>
+	<br/>
+	<br/>
+	<br/>
+	<h2>Forms and form elements
+	</h2>
+	<p>Inside of the &ltform&gt tag, the following attributes must be added: &ltform <em><strong>action</strong>="" <strong>method</strong>=""</em> &gt. <p><em><strong>action</em></strong> is used to determine <b>where</b> you want to send the data to, generally a smart file, like a php file. </p><p><em><strong>method</em></strong> is basically asking <b>how</b> you want to send the data. There are 2 ways to send the data: "<em><strong>post</em></strong>" and "<em><strong>get</em></strong>". <br><em><strong> post</em></strong> is more secured, the user can't see it, and you can send more information through it. <em><strong>get</em></strong> actually sends the data at the end of the URL. Get is not really recommended. </p>
+	<br>
+	<p>There are many types of elements you can put in forms, for example:</p>
+	<ul>
+		<li>text</li>
+		<li>password</li>
+		<li></li>
+		<li></li>
+	</ul>
+	
+	<p>Elementes inside the form: &ltinput type="<em>type of data</em>" name="<em>mandatory name for the element</em>" maxlength="<em>max amount of characters</em> " value="<em>default value if you want one</em>" size="<em>max size of the text fiel</em>"&gt </p>
+	<br>
+	<p>
+	
+	</p>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="irwin">
+	
+	
+	
+	<form action="" method="post">
+		User Name: <input type="text" name="username_1" maxlength="100" placeholder="name" size="5" />
+		Password: <input type="password" name="password_1" maxlength="20" value="" size="20" />
+		
+		
+		Pick a type of user:
+		<select name="usertype" <!--multiple size="1" -->> <!--multiple size="" displays multiple options, and by pressing ctrl, you can select multiple options at once.--> 
+		<!--Every select must have a "name" attribute-->
+		<!--Every option must have a "value" attribute-->
+			<option value="guest" selected="selected"><!-- selected is used to select the default value-->Guest</option>
+			<optgroup label="Education">
+			<option value="student">Student</option>
+			<option value="teacher">Teacher</option>
+			</optgroup>
+			<optgroup label="Administration">
+			<option value="tech">Tech Support</option>
+			<option value="admin">Administrator</option>
+			</optgroup>
+		</select>
+		<br/>
+		What do you do in your spare time?<br/>
+		<!--the name attribute depends on what scripting language is being used: JavaScript, Python, PHP, etc. -->
+		Play sport: <input type="checkbox" name="spare_time[]" value="sport" /> <!--checked="checked" is used if you want to have a checkbox checked by default.  <input type="checkbox" name="spare_time[]" value="sport" checked="checked"/> --> 
+		Play computer games: <input type="checkbox" name="spare_time[]" value="games"/>
+		Reading: <input type="checkbox" name="spare_time" value="read"/>
+		
+		<br></br>
+		Do you play league of legends?
+		<!--Radio buttons must have the same name, otherwise the user may select multiple radio buttons at the same time. -->
+		Yes	<input type="radio" name="lol" value="yes">
+		No	<input type="radio" name="lol" value="No">
+		<br/><br/>
+		Any comments you'd like to express<br/>
+		<textarea name="comments" rows="15" cols="25">		
+		</textarea>
+		<!--Rows is the vertical size, cols is the horizontal size, but they are given in character values-->
+		
+		<input type="button" value="I am a button."/>
+		<!--with a button, the value attribute is whatever is displayed back to the user on that specific button -->	
+		<br/>
+		<input type="file" size="50">
+		<!-- The type file is a type of button used to upload a file. -->
+		<br/>
+		<input type="submit" value="submit"/>
+		<!--Submit button is used to send everything to the server-->
+		<input type="reset" value="reset"/>
+		<!--reset buttons are used to reset the info.-->
+	</form>
+	<br/>
+	<hr/>
+	<br/>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<form action="" method="get">
+
+	<p><legend align="center">Labels and field sets</legend></p>
+<br/>	
+	<fieldset class="personal_info">
+	<legend align="center">Info:</legend>
+	<br/>
+	<p>
+	<label for="first_name">First Name:</label><input type="text" name="first" id="first_name">
+	</p>
+	<br/>
+	<p>
+	<label for="Mid">Middle Name:</label><input type="text" name="mid" id="mid">
+	</p>
+	</br>
+	<p>
+	<label for="last_name">Last Name:</label><input type="text" name="last" id="last_name">
+	</p>
+	<br/>
+	</fieldset>
+	<br/>
+	
+	<fieldset>
+	<p><legend align="center">Hobbies:</legend></p>
+	<br/>
+	<label for="sports">Sports</label><input type="checkbox" value="sports" name="sports" id="sports"/>
+	<label for="gaming">Gaming</label><input type="checkbox" value="gaming" name="gaming" id="gaming"/>
+	<label for="reading">Reading</label><input type="checkbox" value="readng" name="reading" id="reading"/>
+	<br></br>
+	</fieldset>
+	<br/>
+	<input type="submit" value="submit">
+	<input type="reset" value="reset"/>
+	<br/>
+	<br/>
+	
+	</form>
+	<br>
+	<br>
+	<br>
+	<br>
+	
+	<footer class="page_footer">
+	&copy; Carlos Salcedo
+	<p>
+	<a href="../../index.html">Go to the beginning of it all </a>
+	</p>
+	<br>
+	</br>
+	
+	<br/>
+	</footer>
+	</div>
+	
+	</div>
+	
+</div>
+			
+</body>	
+</html>

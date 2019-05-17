@@ -1,0 +1,105 @@
+p{
+	color:black;
+	font-family:arial;
+	font-weight:bold;
+	font-style:italic;
+	font-size:24px;
+	text-align: justify;
+
+}
+
+body{
+	margin:18px;
+	/* 	how much space to leave between one box and the next 
+		instead of writing margin-bottom, margin-left, etc., you can use the same shortcuts as the padding ones bellow. 
+	*/
+
+	padding:18px;
+	
+}
+
+
+/*
+p{
+	font:bold italic 18px Tahoma;/* weight style size family */ /*
+}
+*/
+h1{
+	background-color:black;
+	color:#ccF7FF;
+	text-align: center;
+}
+
+h2{
+	background-color:yellow;
+	text-align:center;
+	
+	
+	margin: 50px; 
+	
+	
+	padding: 10px 20px 5px 25px;
+	
+	/*border: 10px ridge blue; /*width style color*/
+	
+	
+	border-top:12px groove black;
+	border-bottom: 12px groove green;
+	border-left:25px ridge red;
+	border-right:25px ridge red;
+	
+	
+	/*
+	long way to do modify the border
+	border-style: dashed;
+	border-width: 7px;
+	border-color: blue;
+	
+	*/
+	
+
+	
+	
+	/* 	padding: 50px;  -->50px all around
+		padding: 10px 20px 5px 25px /*top right bottom left 
+		padding; 10px 40px;  -->10px top/bottom and 40px left/right
+	
+	how much space to leave between the content and the box it is contained in
+	
+	border-sytle: (dashed, dotted, solid, etc. )
+	*/
+	
+}
+
+
+div{
+	
+	border: 10px solid red;
+	background-color:yellow;
+	width: 250px;
+		
+}
+
+
+span{
+	color: green;
+	text-decoration:underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,90 @@
+/* Get rid of default padding and margin */
+*{
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+}
+
+header,nav,article,section,footer,aside{
+	display:block; /* Older websites need this display:block to display the sections as blocks */
+}
+
+/* centering websites*/
+.container{
+	width:90%;
+	margin:0px auto;
+	/*0px top and bottom, but "auto" margin left and right*/	
+}
+
+.clear{
+	clear:both;
+}
+
+.logo{
+	height:107;
+	width:91;
+	float: left;
+}
+
+.top_nav{
+	float: left;
+	/*width:893px;*/
+}
+
+.top_nav ul li{
+	float:left;
+	padding:25px 10px;
+}
+
+/*Float aside and main section*/
+
+.left_side{
+	float:left;
+	width:75%;
+	padding:2px;
+
+}
+
+.right_side{
+	float:left;
+	width:15%;
+	padding:2px;
+}
+
+/*make footer clear floated elements*/
+
+.page_footer{
+	clear: both;
+	text-align: center;
+}
+
+.left_side article{
+	border:2px solid red;
+	margin-right:10px;
+	padding:5px;
+	
+}
+
+.right_side div{
+	border:2px solid blue;
+	margin:0px 0px 10px 0px; 
+	padding:2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

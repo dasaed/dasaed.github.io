@@ -1,0 +1,44 @@
+div{
+	height:480px;
+	width:100%;
+	background-image:url(mylove.jpg);
+	background-repeat:no-repeat;
+	background-position:center top;
+	
+	text-align:center;
+	
+}
+
+body{
+	background-color:white;
+}
+
+/* clases start with a "." and are used for indivual things or parts of the website*/
+.rojo{
+	font-weight: bold;
+	color:red;
+}
+.blue{
+	color: blue;
+}
+.yellow{
+	color: yellow;
+	background-color: black;
+}
+
+
+/* IDs must start with a "#" */
+
+#azul{
+	color: blue;
+}
+
+#red{color: red;
+	background-color: black;}
+
+#green{color: green; }
+
+.rojo span p{
+	color: pink;
+	background-color: yellow;
+}

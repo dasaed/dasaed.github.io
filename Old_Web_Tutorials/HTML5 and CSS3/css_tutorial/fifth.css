@@ -1,0 +1,21 @@
+a{
+	size:48px;
+	text-decoration:none;
+		
+}
+
+a:hover{
+	color:navy;
+	text-decoration: underline;
+}
+
+a:active{
+	color:red;
+	font-weight: bold;
+}
+
+a:visited{
+	color: green;
+	background-color:black;
+	
+}
