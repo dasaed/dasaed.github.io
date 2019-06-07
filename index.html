@@ -56,7 +56,7 @@
                             <a class="nav-link" href="#three"><i class="fas fa-school"></i> Education</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#four "><i class="fas fa-code-branch"></i> Extracurricular</a>
+                            <a class="nav-link" href="#four"><i class="fas fa-code-branch"></i> Extracurricular</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="https://dasaed.github.io/other_documents/Resume_Carlos_Dasaed_Salcedo.pdf">
@@ -392,7 +392,7 @@
                 <!--Grid column-->
                 <!--Grid column-->
                 <div class="col-lg-4 col-md-6 mb-4 ">
-                    <section id="two ">
+                    <section id="two">
                         <!--Card-->
                         <div class="card ">
 
@@ -453,7 +453,7 @@
 
                 <!--Grid column-->
                 <div class="col-lg-4 col-md-6 mb-4 ">
-                    <section id="three ">
+                    <section id="three">
                         <!--Card-->
                         <div class="card ">
 
@@ -726,7 +726,7 @@
                     <div class="row ">
                         <div class="col-md-12 ">
 
-                            <section id="four ">
+                            <section id="four">
                                 <div class="text-center ">
                                     <h2 class="font-weight-bold text-uppercase ">Extracurricular</h2>
                                 </div>
@@ -764,7 +764,8 @@
                                     <div>
                                         <h5 class="yellow-text "><i class="fas fa-business-time "></i> need2work </h5>
                                         <h3 class="card-title pt-2 "><strong>Entrepreneurship Project</strong></h3>
-                                        <p> Our goal is to automate and simplify the onboarding process at a convenient price for the small businesses. This is a work in progress and more details will be provided as we get the start-up going... </p>
+                                        <p> Our goal is to automate and simplify the employee management process for any sized businesses. We are working on getting a the project started... </p>
+										 <a class="btn btn-yellow" href="need2.work"><i class="fas fa-clone left "></i> Check-out the Community </a>
                                     </div>
                                 </div>
 
@@ -1018,16 +1019,19 @@
 
     <!-- SCRIPTS -->
     <!-- JQuery -->
-    <script type="text/javascript " src="js/jquery-3.4.0.min.js "></script>
+    <script type="text/javascript" src="js/jquery-3.4.0.min.js"></script>
     <!-- Bootstrap tooltips -->
-    <script type="text/javascript " src="js/popper.min.js "></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
     <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript " src="js/bootstrap.min.js "></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <!-- MDB core JavaScript -->
-    <script type="text/javascript " src="js/mdb.min.js "></script
+    <script type="text/javascript" src="js/mdb.min.js"></script
 	
 	<!-- Custom Scripts -->
-	<script>
+	
+	<script type="text/javascript" src="http://smtpjs.com/smtp.js"></script>
+
+	<script type="text/javascript">
 	  function validateForm() {
 	  var name =  document.getElementById('name').value;
 	  if (name == "") {
@@ -1061,6 +1065,22 @@
 	  }
 	</script>
 	
+	<!--
+	<script type="text/javascript">
+		Email.send({
+			Host : "smtp.yourisp.com",
+			Username : "username",
+			Password : "password",
+			To : 'them@website.com',
+			From : "you@isp.com",
+			Subject : "This is the subject",
+			Body : "And this is the body"
+		}).then(
+		message => alert(message)
+		);
+	</script>
+	-->
+	
 	
 </body>
 <!--
@@ -1080,6 +1100,9 @@
 
 <i class="fas fa-coffee "></i>
 
+
+I'm using this to send emails :)
+https://www.smtpjs.com/
 
 
 
