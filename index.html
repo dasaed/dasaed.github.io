@@ -16,6 +16,11 @@
     <link href="css/style.css" rel="stylesheet">
     <!--fab icon-->
     <link rel="icon" type="image/x-icon" href="https://dasaed.github.io/img/portfolio/icon1.ico" />
+	<style>
+	html {
+	  scroll-behavior: smooth;
+	}
+	</style>
 </head>
 
 <body>
@@ -38,7 +43,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
-                    <ul class="navbar-nav mr-auto">
+                    <ul class="smooth-scroll navbar-nav mr-auto">
                         <li class="nav-item active">
                             <a class="nav-link" href="#"><i class="fas fa-home"></i> Home
                                 <span class="sr-only">(current)</span>
@@ -92,7 +97,7 @@
                         </li>
 						
 						<li class="nav-item">
-						<a class="nav-link waves-effect waves-light" href="mailto:cdsalcedo@mun.ca&subject=Lets%20get%20in%20touch">
+						<a class="nav-link waves-effect waves-light" href="mailto:cdsalcedo@mun.ca?subject=Lets%20get%20in%20touch%20dasaed.github.io">
                                 <i class="far fa-envelope"></i>
                             </a>
 							
@@ -151,7 +156,7 @@
 
                     <!--Featured image -->
                     <div class="view overlay z-depth-1-half">
-                        <img src="https://dasaed.github.io/img/portfolio/HOG2019_4.jpg" class="img-fluid" alt="Carlos Dasaed Salcedo Carreno at Signal Hill, St. John's">
+                        <img src="https://dasaed.github.io/img/portfolio/HOG2019_4.jpg" class="img-fluid" alt="Carlos Dasaed Salcedo Carreno at Oil and Gas Hackathon at Memorial University 2019">
                         <div class="mask rgba-black-light"></div>
                     </div>
 					
@@ -219,9 +224,12 @@
 
                         </div>
 
+							<!--
 							<div class="text-center">
 								<a href="" class="btn btn-primary btn-rounded mb-4" data-toggle="modal" data-target="#modalContactForm">Contact Me</a>
 							</div>
+							-->
+							<hr class="hr-dark">
 								<div class="text-center">
 								<p>Click the following buttons if you want to see the videos from our presentations in the Oil and Gas Hackathon</p>
 								<a class="btn btn-cyan" href="https://youtu.be/ekcEzwnNHMU"><i class="fas fa-clone left"></i> 2-min Pitch </a>
@@ -764,7 +772,7 @@
                                         <h5 class="yellow-text "><i class="fas fa-business-time "></i> need2work </h5>
                                         <h3 class="card-title pt-2 "><strong>Entrepreneurship Project</strong></h3>
                                         <p> Our goal is to automate and simplify the employee management process for any sized businesses. We are working on getting the project started, but feel free to join our community and contribute to the project... </p>
-										 <a class="btn btn-yellow" href="https://need2.work"><i class="fas fa-clone left "></i> Check-out the Community </a>
+										 <a class="btn btn-yellow" href="https://need2.work"><i class="fas fa-clone left "></i> Check out the Community </a>
                                     </div>
                                 </div>
 
@@ -1140,7 +1148,7 @@
 		  return false;
 	  }
 	  document.getElementById('status').innerHTML = "Sending...";
-	  console.log('<a href="mailto:cdsalcedo@mun.ca?subject='+subject+'&body=' +message+email+'">' + 'Click here to send feedback' + '<~ez_lsquo+ez_rsquo~/a>')
+	  console.log('<a href="mailto:cdsalcedo@mun.ca?subject='+subject+'&body='+message+'%20'+email+'">' + 'Click here to send feedback' + '<~ez_lsquo+ez_rsquo~/a>')
 	  //document.write('<a href="mailto:' + email +'?subject='+subject+'&body=' +body+'">' + 'Click here to send feedback' + '<~ez_lsquo+ez_rsquo~/a>');
 	  //document.getElementById('contact-form').submit();
 	  console.log(name,email,subject,message)
