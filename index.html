@@ -14,6 +14,13 @@
     <link href="css/mdb.min.css" rel="stylesheet">
     <!-- Your custom styles (optional) -->
     <link href="css/style.css" rel="stylesheet">
+    <!--fab icon-->
+    <link rel="icon" type="image/x-icon" href="https://dasaed.github.io/img/portfolio/icon1.ico" />
+	<style>
+	html {
+	  scroll-behavior: smooth;
+	}
+	</style>
 </head>
 
 <body>
@@ -22,86 +29,88 @@
 
     <!--Main Navigation-->
     <header>
-        <!--Navbar -->
-        <nav class="mb-1 navbar navbar-expand-lg navbar-dark blue-gradient">
-            <a class="navbar-brand" href="#">
-                <img src="https://dasaed.github.io/img/portfolio/myicon_1.png" height="30" alt="Carlos Dasaed Salcedo Carreno">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333" aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="https://dasaed.github.io/"><i class="fas fa-home"></i> Home
-            <span class="sr-only">(current)</span>
-          </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            <i class="fas fa-laptop-code"></i> Skills </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fas fa-briefcase"></i> Experience</a>
-                    </li>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fas fa-school"></i> Education</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fas fa-code-branch"></i> Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://dasaed.github.io/other_documents/Resume_Carlos_Dasaed_Salcedo.pdf">
-                            <i class="fas fa-download"></i> Download Resume</a>
-                    </li>
-                    <!-- In case you want to have another dropdown menu within your options, uncomment this
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown
-                        </a>
-                        <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                    </li>
-                    -->
-                </ul>
-                <ul class="navbar-nav ml-auto nav-flex-icons">
-                    <li class="nav-item">
-                        <a class="nav-link waves-effect waves-light" href="https://twitter.com/cadasaca">
-                            <i class="fab fa-twitter" "></i>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link waves-effect waves-light" href="https://github.com/dasaed">
-                            <i class="fab fa-github"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link waves-effect waves-light" href="https://www.linkedin.com/in/carlos-dasaed-salcedo/">
-                            <i class="fab fa-linkedin"></i>
-                        </a>
-                    </li>
+        <!-- Additional container -->
+        <div class="container">
+            <!--Navbar -->
+            <nav class="navbar navbar-toggleable-md navbar-expand-md navbar-dark blue-gradient fixed-top scrolling-navbar">
+                <!--<nav class="mb-1 navbar navbar-expand-lg navbar-dark blue-gradient">
+                -->
+                <a class="navbar-brand" href="#">
+                    <img src="https://dasaed.github.io/img/portfolio/icon1.ico" height="30" alt="Carlos Dasaed Salcedo Carreno">
+                </a>
 
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <i class="fas fa-user"></i>
-                        </a>
-                        <div class="dropdown-menu dropdown-menu-right dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
-                            <a class="dropdown-item" href="#"> <i class="far fa-envelope"></i> e-mail</a>
-                            <a class="dropdown-item" href="#"><i class="fas fa-chess"></i> Hobbies</a>
-                            <a class="dropdown-item" href="#"><i class="far fa-address-card"></i> Other Info</a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <!--/.Navbar -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333" aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
+                    <ul class="smooth-scroll navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#"><i class="fas fa-home"></i> Home
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#one">
+                                <i class="fas fa-laptop-code"></i> Skills </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#two"><i class="fas fa-briefcase"></i> Experience</a>
+                        </li>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#three"><i class="fas fa-school"></i> Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#four"><i class="fas fa-code-branch"></i> Extracurricular</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://dasaed.github.io/other_documents/Resume_Carlos_Dasaed_Salcedo.pdf">
+                                <i class="fas fa-download"></i> Resume </a>
+                        </li>
+                        <!-- In case you want to have another dropdown menu within your options, uncomment this
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown
+                            </a>
+                            <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        -->
+                    </ul>
+                    <ul class="navbar-nav ml-auto nav-flex-icons">
+                        <li class="nav-item">
+                            <a class="nav-link waves-effect waves-light" href="https://twitter.com/cadasaca">
+                                <i class="fab fa-twitter" "></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link waves-effect waves-light" href="https://github.com/dasaed">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link waves-effect waves-light" href="https://www.linkedin.com/in/carlos-dasaed-salcedo/">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </li>
+						
+						<li class="nav-item">
+						<a class="nav-link waves-effect waves-light" href="mailto:cdsalcedo@mun.ca?subject=Lets%20get%20in%20touch%20dasaed.github.io">
+                                <i class="far fa-envelope"></i>
+                            </a>
+							
+						</li>
+
+
+                    </ul>
+                </div>
+            </nav>
+            <!--/.Navbar -->
+        </div>
     </header>
     <!--Main Navigation-->
-
-
 
 
 
@@ -124,11 +133,8 @@
 
 
 
-
-
-
     <!--Main layout-->
-    <main>
+    <main class="mt-5">
         <!--Main container-->
         <div class="container">
 
@@ -143,40 +149,29 @@
 
 
             <!--Grid row-->
-            <div class="row">
+            <div class="row mb-4">
 
                 <!--Grid column-->
-                <div class="col-md-7">
+                <div class="col-md-7 mb-4">
 
                     <!--Featured image -->
                     <div class="view overlay z-depth-1-half">
-                        <img src="https://dasaed.github.io/img/portfolio/innovation.jpg" class="img-fluid" alt="Carlos Dasaed Salcedo Carreno at Signal Hill, St. John's">
-                        <div class="mask rgba-white-light"></div>
+                        <img src="https://dasaed.github.io/img/portfolio/HOG2019_4.jpg" class="img-fluid" alt="Carlos Dasaed Salcedo Carreno at Oil and Gas Hackathon at Memorial University 2019">
+                        <div class="mask rgba-black-light"></div>
                     </div>
+					
 
                 </div>
                 <!--Grid column-->
-                <br>
                 <!--Grid column-->
-                <div class="col-md-5">
-                    <br>
+                <div class="col-md-5 mb-4">
+				<br>
                     <div class="text-center">
+                        <h3>Carlos Dasaed Salcedo</h3>
                         <p><strong>Goal-oriented</strong> and <strong>hard-working</strong> professional capable of working well in <strong>team-oriented</strong> or <strong>self-directed projects</strong> to guarantee client's success and satisfaction.
                             Exceptional communication and interpersonal skills, with experience in
                             <emp>Agile methodologies</emp> and willing to adapt to any environment and situation.</p>
-                        <a href="" class="btn btn-primary">Contact Me</a>
                     </div>
-                </div>
-                <!--Grid column-->
-
-            </div>
-            <!--Grid row-->
-
-
-
-
-
-            </br>
 
 
 
@@ -185,297 +180,63 @@
 
 
 
-
-
-
-
-
-
-            <!--Grid row-->
-            <div class="row">
-
-                <!--Grid column-->
-                <div class="col-lg-4 col-md-12">
-
-                    <!--Card-->
-                    <div class="card">
-
-                        <!--Card image-->
-                        <div class="view overlay">
-                            <img src="https://dasaed.github.io/img/portfolio/cloud-home.png" class="card-img-top" alt="Carlos Dasaed Salcedo Skills">
-                            <a href="#">
-                                <div class="mask rgba-white-slight"></div>
-                            </a>
-                        </div>
-
-                        <!--Card content-->
-                        <div class="card-body">
-                            <!--Title-->
-                            <h4 class="card-title">Skills</h4>
-                            <!--Text-->
-                            Linux <i class="fab fa-suse"></i> <i class="fab fa-redhat"></i> <i class="fas fa-server"></i> <i class="fas fa-desktop"></i> <i class="fas fa-hdd"></i>
-                            <div class="progress md-progress" style="height: 20px">
-                                <div class="progress-bar blue darken-2" role="progressbar" style="width: 100%; height: 20px" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <br> Shell-Scripting <i class="fab fa-linux"></i>
-                            <div class="progress md-progress" style="height: 20px">
-                                <div class="progress-bar blue darken-2" role="progressbar" style="width: 100%; height: 20px" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <br> Python <i class="fab fa-python"></i>
-                            <div class="progress md-progress" style="height: 20px">
-                                <div class="progress-bar blue" role="progressbar" style="width: 80%; height: 20px" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <br> HTML <i class="fab fa-html5"></i>
-                            <div class="progress md-progress" style="height: 20px">
-                                <div class="progress-bar blue lighten-2" role="progressbar" style="width: 66%; height: 20px" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <br> CSS <i class="fab fa-css3-alt"></i>
-                            <div class="progress md-progress" style="height: 20px">
-                                <div class="progress-bar blue lighten-2" role="progressbar" style="width: 66%; height: 20px" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <br> JavaScript <i class="fab fa-js-square"></i>
-                            <div class="progress md-progress" style="height: 20px">
-                                <div class="progress-bar blue lighten-2" role="progressbar" style="width: 66%; height: 20px" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <br> NodeJS (Currently learning) <i class="fab fa-node-js"></i>
-                            <div class="progress md-progress" style="height: 20px">
-                                <div class="progress-bar blue-gradient" role="progressbar" style="width: 25%; height: 20px" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <br>
-
-                            <!-- Button trigger modal -->
-                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#basicExampleModal">Other Skills and More details...</button>
-
-                            <!-- Modal -->
-                            <div class="modal fade" id="basicExampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog" role="document">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLabel">My Skills</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
+                        <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header text-center">
+                                        <h4 class="modal-title w-100 font-weight-bold">Contact Me</h4>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                  </button>
+                                    </div>
+									<div class="status" id="status"></div>
+                                    <div class="modal-body mx-3">
+                                        <div class="md-form mb-5">
+                                            <i class="fas fa-user prefix grey-text"></i>
+                                            <input type="text" id="name" class="form-control validate">
+                                            <label data-error="wrong" data-success="right" for="name">Your name</label>
                                         </div>
-                                        <div class="modal-body">
-                                            <h6>TECH SKILLS <i class="fas fa-laptop-code"></i> </h6>
-                                            <ul>
-                                                <li><strong>Linux:</strong>
-                                                    <ul>
-                                                        <li>Created
-                                                            <emp>shell-scripts</emp> to automate tasks such as back-ups, alert e-mails, and information gathering</li>
-                                                        <li>Ensured continuous functionality of multiple clients' unix infrastructure</li>
-                                                    </ul>
-                                                </li>
-                                                <li><strong>Python:</strong>
-                                                    <ul>
-                                                        <li>Trained a digit recognition model using TensorFlow</li>
-                                                        <li>Worked with Anaconda and Google Colab to create Python Notebooks</li>
-                                                    </ul>
-                                                </li>
-                                                <li><strong>JavaScript, HTML and CSS:</strong>
-                                                    <ul>
-                                                        <li>Built this site using MDBootstrap</li>
-                                                        <li>Designed a networking site for researchers as part of a course project. <a href="https://github.com/rubencg195/GRADREC">Repository available here</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><strong>NodeJS: </strong>Currently taking a course on Udemy</li>
-                                            </ul>
-                                            <h6>SOFT SKILLS <i class="far fa-handshake"></i></h6>
-                                            <ul>
-                                                <li><strong>Teamwork and Leadership:</strong>
-                                                    <ul>
-                                                        <li>Trained team members in server related tasks, Agile methodologies, and IBM internal tools</li>
-                                                        <li>Motivated my peers to get certified in AIX, Agile Methodogies and other tech-related areas</li>
-                                                    </ul>
-                                                </li>
-                                                <li><strong>Communication:</strong>
-                                                    <ul>
-                                                        <li>Collaborated directly with clients to find solutions and discuss improvement plans</li>
-                                                        <li>Organized team training sessions and Agile meetings</li>
-                                                    </ul>
-                                                </li>
-                                                <li><strong>Learned to work under pressure:</strong>
-                                                    <ul>
-                                                        <li>Provided 24/7 standby support for Unix operating systems</li>
-                                                        <li>Worked along side clients to resolve incidents, issues, and security audits</li>
-                                                    </ul>
-                                                </li>
-                                                <li><strong>Open-minded: </strong>Multicultural, willing to learn new things, and I love taking on new challenges</li>
-                                            </ul>
-                                            <h6>Tools I'm familiar with... <i class="fas fa-toolbox"></i></h6>
-                                            <ul>
-                                                <li><strong>Collaboration tools:</strong> Github, Gitlab, and Trello
-                                                </li>
-                                                <li><strong>Meeting tools:</strong> WebEx, Zoom, Slack, Lotus, Google +, Skype </li>
-                                                <li><strong>MS Office:</strong> Word, Excel, PowerPoint
-                                                </li>
-                                                <li><strong>IDEs:</strong> Eclipse, PyCharm, VisualStudio Code
-                                                </li>
-                                                <li><strong>Various desktop Operating Systems: </strong>Windows, Mac, and Linux (Ubuntu and RedHat) </li>
-                                            </ul>
+
+                                        <div class="md-form mb-5">
+                                            <i class="fas fa-envelope prefix grey-text"></i>
+                                            <input type="email" id="email" class="form-control validate">
+                                            <label data-error="wrong" data-success="right" for="email">Your email</label>
                                         </div>
-                                        <div class="modal-body"> </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary purple accent-4" data-dismiss="modal">Close</button>
+
+                                        <div class="md-form mb-5">
+                                            <i class="fas fa-tag prefix grey-text"></i>
+                                            <input type="text" id="subject" class="form-control validate">
+                                            <label data-error="wrong" data-success="right" for="subject">Subject</label>
                                         </div>
+
+                                        <div class="md-form">
+                                            <i class="fas fa-pencil prefix grey-text"></i>
+                                            <textarea type="text" id="message" class="md-textarea form-control" rows="4"></textarea>
+                                            <label data-error="wrong" data-success="right" for="message">Your message</label>
+                                        </div>
+
+                                    </div>
+                                    <div class="modal-footer d-flex justify-content-center">
+                                        <button class="btn btn-primary" onclick="validateForm()">Send <i class="fas fa-paper-plane-o ml-1"></i></button>
                                     </div>
                                 </div>
                             </div>
 
-
-                        </div>
-                        <div class="card-footer text-muted text-center">
-                            "The capacity to learn is a gift; The ability to learn is a skill; The willingness to learn is a choice." -Brian Herbert
                         </div>
 
-                    </div>
-                    <!--/.Card-->
-                    <br>
-
-                </div>
-                <!--Grid column-->
-                <!--Grid column-->
-                <div class="col-lg-4 col-md-6">
-
-                    <!--Card-->
-                    <div class="card">
-
-                        <!--Card image-->
-                        <div class="view overlay">
-                            <img src="https://dasaed.github.io/img/portfolio/work.jpg" class="card-img-top" alt="">
-                            <a href="#">
-                                <div class="mask rgba-white-slight"></div>
-                            </a>
-                        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                        <!--Card content-->
-                        <div class="card-body">
-                            <!--Title-->
-                            <h4 class="card-title">Work Experience</h4>
-                            <!--Text-->
-
-                            <h5>IBM Colombia (2016 - 2018)</h5>
-                            <p>
-                                <emp>System Administrator</emp>
-                            </p>
-                            <p class="card-text">
-                                <ul>
-                                    <li>Assisted in the deployment and management of IBM POWER technologies, AIX, and Linux operating systems</li>
-                                    <li>Ensured the continuous functionality and efficiency of clients’ infrastructure by managing CPU, memory and storage resources</li>
-                                    <li>Provided 24/7 support for Linux and AIX operating systems</li>
-                                    <li>Collaborated directly with clients to scheduled and organize maintenance and contingency plans</li>
-                                    <li>Applied Agile methodologies to improve the team's productivity</li>
-
-                                </ul>
-
-                            </p>
-                            <h5>Treats, Canada (2018 - 2019)</h5>
-                            <p>
-                                <emp>Store Clerk</emp>
-                            </p>
-                            <p>
-                                Assisted customers, restocked shelves, served food, operated the cash register, and ensured cleanliness of the store
-                            </p>
-
-
-                        </div>
-
-
-
-                        <div class="card-footer text-muted text-center">
-                            "A master in the art of living draws no sharp distinction between work and play..." -Unknown
-                        </div>
-
-
-                    </div>
-                    <!--/.Card-->
-                    <br>
-                </div>
-                <!--Grid column-->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                <!--Grid column-->
-                <div class="col-lg-4 col-md-6">
-
-                    <!--Card-->
-                    <div class="card ">
-
-                        <!--Card image-->
-                        <div class="view overlay">
-                            <img src=https://dasaed.github.io/img/portfolio/graduation.jpg " class="card-img-top " alt="Santa Fe High School - US, St. Thomas of Aquinas University, Colombia, Memorial University of Newfoundland, Canada ">
-                            <a href="# ">
-                                <div class="mask rgba-white-slight "></div>
-                            </a>
-                        </div>
-
-                        <!--Card content-->
-                        <div class="card-body ">
-                            <!--Title-->
-                            <h4 class="card-title ">Education</h4>
-                            <!--Text-->
-                            <img src="https://dasaed.github.io/img/portfolio/munlogo.png " alt="Memorial University of Newfoundland Carlos Dasaed Salcedo Carreno Masters in Computer Science " class=" rounded float-right "  style="width: 100px ">
-                                <h5>Memorial University of Newfoundland, Canada</h5>
-                                <p>MSc in Computer Science - 2020</p>
-
-
-
-                                <img src="https://dasaed.github.io/img/portfolio/ustalogo.png " alt="Universidad Santo Tomas Ingeniero de Telecomunicaciones " class=" rounded float-left "  style="width: 100px ">
-                                <h5>Universidad Santo Tomas, Colombia</h5>
-                                <p>BSe in Telecommunications - 2017</p>
-
-
-                                <img src="https://dasaed.github.io/img/portfolio/hslogo.jpg " alt="Santa Fe High School, California, United States " class=" rounded float-right "  style="width: 100px ">
-                                <h5>Santa Fe High School, United States</h5>
-                                <p>High School Diploma - 2009</p>
-
-
-                        </div>
-                        <div class="card-footer text-muted text-center ">
-                                "Once you stop learning, you start dying " -Albert Einstein
-                            </div>
-                    </div>
-                    <!--/.Card-->
+							<!--
+							<div class="text-center">
+								<a href="" class="btn btn-primary btn-rounded mb-4" data-toggle="modal" data-target="#modalContactForm">Contact Me</a>
+							</div>
+							-->
+							<hr class="hr-dark">
+								<div class="text-center">
+								<p>Click the following buttons if you want to see the videos from our presentations in the Oil and Gas Hackathon</p>
+								<a class="btn btn-cyan" href="https://youtu.be/ekcEzwnNHMU"><i class="fas fa-clone left"></i> 2-min Pitch </a>
+								<a class="btn btn-cyan" href="https://youtu.be/Q5UZzRCELPw"><i class="fas fa-clone left"></i>Full Presentation </a>
+							<!-- https://youtu.be/ekcEzwnNHMU -->
+							<!-- https://youtu.be/Q5UZzRCELPw -->
+							</div>
 
                 </div>
                 <!--Grid column-->
@@ -483,132 +244,710 @@
             </div>
             <!--Grid row-->
 
-        </div>
-        <!--Main container-->
+
+
+
+
+
+
+
+
+
+
+            <!--Grid row-->
+            <div class="row mb-4">
+
+                <!--Grid column-->
+                <div class="col-lg-4 col-md-12 mb-4">
+
+                    <!--Card-->
+                    <section id="one">
+                        <div class="card">
+
+                            <!--Card image-->
+                            <div class="view overlay">
+                                <img src="https://dasaed.github.io/img/portfolio/cloud-home.png" class="card-img-top" alt="Carlos Dasaed Salcedo Skills">
+                                <a href="#">
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+
+                            <!--Card content-->
+                            <div class="card-body">
+                                <!--Title-->
+                                <h4 class="card-title">Skills</h4>
+                                <!--Text-->
+                                Linux <i class="fab fa-suse"></i> <i class="fab fa-redhat"></i> <i class="fas fa-server"></i> <i class="fas fa-desktop"></i> <i class="fas fa-hdd"></i>
+                                <div class="progress md-progress" style="height: 20px">
+                                    <div class="progress-bar blue darken-2" role="progressbar" style="width: 100%; height: 20px" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <br> Shell-Scripting <i class="fab fa-linux"></i>
+                                <div class="progress md-progress" style="height: 20px">
+                                    <div class="progress-bar blue darken-2" role="progressbar" style="width: 100%; height: 20px" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <br> Python <i class="fab fa-python"></i>
+                                <div class="progress md-progress" style="height: 20px">
+                                    <div class="progress-bar blue" role="progressbar" style="width: 80%; height: 20px" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <br> HTML <i class="fab fa-html5"></i>
+                                <div class="progress md-progress" style="height: 20px">
+                                    <div class="progress-bar blue lighten-2" role="progressbar" style="width: 60%; height: 20px" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <br> CSS <i class="fab fa-css3-alt"></i>
+                                <div class="progress md-progress" style="height: 20px">
+                                    <div class="progress-bar blue lighten-2" role="progressbar" style="width: 60%; height: 20px" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <br> JavaScript <i class="fab fa-js-square"></i>
+                                <div class="progress md-progress" style="height: 20px">
+                                    <div class="progress-bar blue lighten-2" role="progressbar" style="width: 60%; height: 20px" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <br> NodeJS (Currently learning) <i class="fab fa-node-js"></i>
+                                <div class="progress md-progress" style="height: 20px">
+                                    <div class="progress-bar blue lighten-4 role=" progressbar " style="width: 20%; height: 20px " aria-valuenow="25 " aria-valuemin="0 " aria-valuemax="100 "></div>
+                                </div>
+                                <br>
+
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#basicExampleModal">Other Skills and More details...</button>
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="basicExampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">My Skills</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                            </div>
+                                            <div class="modal-body ">
+                                                <h6>TECH SKILLS <i class="fas fa-laptop-code"></i> </h6>
+                                                <ul>
+                                                    <li><strong>Linux:</strong>
+                                                        <ul>
+                                                            <li>Created
+                                                                <emp>shell-scripts</emp> to automate tasks such as back-ups, alert e-mails, and information gathering</li>
+                                                            <li>Ensured continuous functionality of multiple clients' unix infrastructure</li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><strong>Python:</strong>
+                                                        <ul>
+                                                            <li>Trained a digit recognition model using TensorFlow</li>
+                                                            <li>Worked with Anaconda and Google Colab to create Python Notebooks</li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><strong>JavaScript, HTML and CSS:</strong>
+                                                        <ul>
+                                                            <li>Built this site using MDBootstrap</li>
+                                                            <li>Designed a networking site for researchers as part of a course project. <a href="https://github.com/rubencg195/GRADREC ">Repository available here</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><strong>NodeJS: </strong>Currently taking a course on Udemy</li>
+                                                </ul>
+                                                <h6>SOFT SKILLS <i class="far fa-handshake"></i></h6>
+                                                <ul>
+                                                    <li><strong>Teamwork and Leadership:</strong>
+                                                        <ul>
+                                                            <li>Trained team members in server related tasks, Agile methodologies, and IBM internal tools</li>
+                                                            <li>Motivated my peers to get certified in AIX, Agile Methodogies and other tech-related areas</li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><strong>Communication:</strong>
+                                                        <ul>
+                                                            <li>Collaborated directly with clients to find solutions and discuss improvement plans</li>
+                                                            <li>Organized team training sessions and Agile meetings</li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><strong>Learned to work under pressure:</strong>
+                                                        <ul>
+                                                            <li>Provided 24/7 standby support for Unix operating systems</li>
+                                                            <li>Worked along side clients to resolve incidents, issues, and security audits</li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><strong>Open-minded: </strong>Multicultural, willing to learn new things, and I love taking on new challenges</li>
+                                                </ul>
+                                                <h6>Tools I'm familiar with... <i class="fas fa-toolbox "></i></h6>
+                                                <ul>
+                                                    <li><strong>Collaboration tools:</strong> Github, Gitlab, and Trello
+                                                    </li>
+                                                    <li><strong>Meeting tools:</strong> WebEx, Zoom, Slack, Lotus, Google +, Skype </li>
+                                                    <li><strong>MS Office:</strong> Word, Excel, PowerPoint
+                                                    </li>
+                                                    <li><strong>IDEs:</strong> Eclipse, PyCharm, VisualStudio Code
+                                                    </li>
+                                                    <li><strong>Various desktop Operating Systems: </strong>Windows, Mac, and Linux (Ubuntu and RedHat) </li>
+                                                </ul>
+                                            </div>
+                                            <div class="modal-footer ">
+                                                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+								</div>
+
+
+                            </div>
+                            <div class="card-footer text-muted text-center ">
+                                "The capacity to learn is a gift; The ability to learn is a skill; The willingness to learn is a choice. " -Brian Herbert
+                            </div>
+
+                        </div>
+                    </section>
+                    <!--/.Card-->
+                </div>
+                <!--Grid column-->
+                <!--Grid column-->
+                <div class="col-lg-4 col-md-6 mb-4 ">
+                    <section id="two">
+                        <!--Card-->
+                        <div class="card ">
+
+                            <!--Card image-->
+                            <div class="view overlay ">
+                                <img src="https://dasaed.github.io/img/portfolio/work.jpg " class="card-img-top " alt=" ">
+                                <a href="# ">
+                                    <div class="mask rgba-white-slight "></div>
+                                </a>
+                            </div>
+
+
+                            <!--Card content-->
+                            <div class="card-body ">
+                                <!--Title-->
+                                <h4 class="card-title ">Work Experience</h4>
+                                <!--Text-->
+
+                                <h5>IBM Colombia (2016 - 2018)</h5>
+                                <p>
+                                    <emp>System Administrator</emp>
+                                </p>
+                                <p class="card-text ">
+                                    <ul>
+                                        <li>Assisted in the deployment and management of IBM POWER technologies, AIX, and Linux operating systems</li>
+                                        <li>Ensured the continuous functionality and efficiency of clients’ infrastructure by managing CPU, memory and storage resources</li>
+                                        <li>Provided 24/7 support for Linux and AIX operating systems</li>
+                                        <li>Collaborated directly with clients to scheduled and organize maintenance and contingency plans</li>
+                                        <li>Applied Agile methodologies to improve the team's productivity</li>
+
+                                    </ul>
+
+                                </p>
+                                <h5>Treats, Canada (2018 - 2019)</h5>
+                                <p>
+                                    <emp>Store Clerk</emp>
+                                </p>
+                                <p>
+                                    Assisted customers, restocked shelves, served food, operated the cash register, and ensured cleanliness of the store
+                                </p>
+
+
+                            </div>
+
+
+
+                            <div class="card-footer text-muted text-center ">
+                                "A master in the art of living draws no sharp distinction between work and play... " -Unknown
+                            </div>
+
+
+                        </div>
+                        <!--/.Card-->
+                    </section>
+                </div>
+                <!--Grid column-->
+
+
+                <!--Grid column-->
+                <div class="col-lg-4 col-md-6 mb-4 ">
+                    <section id="three">
+                        <!--Card-->
+                        <div class="card ">
+
+                            <!--Card image-->
+                            <div class="view overlay ">
+                                <img src=https://dasaed.github.io/img/portfolio/graduation.jpg " class="card-img-top " alt="Santa Fe High School - US, St. Thomas of Aquinas University, Colombia, Memorial University of Newfoundland, Canada ">
+                                        <a href="# ">
+                                            <div class="mask rgba-white-slight "></div>
+                                        </a>
+                                    </div>
+
+                                    <!--Card content-->
+                                    <div class="card-body ">
+                                        <!--Title-->
+                                        <h4 class="card-title ">Education</h4>
+                                        <!--Text-->
+                                        <img src="https://dasaed.github.io/img/portfolio/munlogo.png " alt="Memorial University of Newfoundland Carlos Dasaed Salcedo Carreno Masters in Computer Science " class=" rounded float-right " style="width: 100px ">
+                                        <h5>Memorial University of Newfoundland, Canada</h5>
+                                        <p>MSc in Computer Science - 2020</p>
+
+
+
+                                        <img src="https://dasaed.github.io/img/portfolio/ustalogo.png " alt="Universidad Santo Tomas Ingeniero de Telecomunicaciones " class=" rounded float-left " style="width: 100px ">
+                                        <h5>Universidad Santo Tomas, Colombia</h5>
+                                        <p>BSe in Telecommunications - 2017</p>
+
+
+                                        <img src="https://dasaed.github.io/img/portfolio/hslogo.jpg " alt="Santa Fe High School, California, United States " class=" rounded float-right " style="width: 100px ">
+                                        <h5>Santa Fe High School, United States</h5>
+                                        <p>High School Diploma - 2009</p>
+
+
+                                    </div>
+                                    <div class="card-footer text-muted text-center ">
+                                        "Once you stop learning, you start dying " -Albert Einstein
+                                    </div>
+                                </div>
+                                <!--/.Card-->
+                    </section>
+                    </div>
+                    <!--Grid column-->
+
+                    </div>
+                    <!--Grid row-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    <div class="row ">
+                        <div class="col-md-12 mt-2 ">
+                            <div class="text-center ">
+                                <h3 class="font-weight-bold text-uppercase text-blue ">Certifications</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Grid row-->
+                    <div class="row mb-4 ">
+
+                        <!-- Card Narrower -->
+                        <div class="col-lg-2 col-md-2 mb-2 ">
+                            <div class="card card-cascade narrower ">
+                                <!-- Card image -->
+                                <div class="view view-cascade overlay ">
+                                    <img src="https://dasaed.github.io/img/portfolio/team.png " class="img-fluid rounded mx-auto d-block " alt="IBM Team Solution Design Badge ">
+                                    <a href=" ">
+                                        <div class="mask rgba-white-light "></div>
+                                    </a>
+                                </div>
+                                <!-- Card content -->
+                                <div class="card-body card-body-cascade ">
+                                    <div class="text-center ">
+                                        <p class="card-text ">IBM Team Solutions Design Badge</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card Narrower -->
+
+                        <!-- Card Narrower -->
+                        <div class="col-lg-2 col-md-2 mb-2 ">
+                            <div class="card card-cascade narrower ">
+                                <!-- Card image -->
+                                <div class="view view-cascade overlay ">
+                                    <img src="https://dasaed.github.io/img/portfolio/arq.png " class="img-fluid rounded mx-auto d-block " alt="IBM Architectural Thinking Badge ">
+                                    <a href=" ">
+                                        <div class="mask rgba-white-light "></div>
+                                    </a>
+                                </div>
+                                <!-- Card content -->
+                                <div class="card-body card-body-cascade ">
+                                    <div class="text-center ">
+                                        <p class="card-text ">IBM Architectural Thinking Badge</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card Narrower -->
+
+                        <!-- Card Narrower -->
+                        <div class="col-lg-2 col-md-2 mb-2 ">
+                            <div class="card card-cascade narrower ">
+                                <!-- Card image -->
+                                <div class="view view-cascade overlay ">
+                                    <img src="https://dasaed.github.io/img/portfolio/agile.png " class="img-fluid rounded mx-auto d-block " alt="IBM Agile Practitioner ">
+                                    <a href=" ">
+                                        <div class="mask rgba-white-light "></div>
+                                    </a>
+                                </div>
+                                <!-- Card content -->
+                                <div class="card-body card-body-cascade ">
+                                    <div class="text-center ">
+                                        <p class="card-text ">IBM Architectural Practitioner Badge</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card Narrower -->
+                        <!-- Card Narrower -->
+                        <div class="col-lg-2 col-md-2 mb-2 ">
+                            <div class="card card-cascade narrower ">
+                                <!-- Card image -->
+                                <div class="view view-cascade overlay ">
+                                    <img src="https://dasaed.github.io/img/portfolio/suse.png " class="img-fluid rounded mx-auto d-block " alt="Carlos Dasaed Salcedo Carreno SUSE Certified System Administrator in Linux 12 ">
+                                    <a href=" ">
+                                        <div class="mask rgba-white-light "></div>
+                                    </a>
+                                </div>
+                                <!-- Card content -->
+                                <div class="card-body card-body-cascade ">
+                                    <div class="text-center ">
+                                        <p class="card-text ">Suse Certified Administrador in Enterprise Linux 12</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card Narrower -->
+                        <div class="col-lg-2 col-md-2 mb-2 ">
+                            <div class="card card-cascade narrower ">
+                                <!-- Card image -->
+                                <div class="view view-cascade overlay ">
+                                    <img src="https://dasaed.github.io/img/portfolio/AIX.png " class="img-fluid rounded mx-auto d-block " alt="AIX V1 System Administrator Obtained in 2016 ">
+                                    <a href=" ">
+                                        <div class="mask rgba-white-light "></div>
+                                    </a>
+                                </div>
+                                <!-- Card content -->
+                                <div class="card-body card-body-cascade ">
+                                    <div class="text-center ">
+                                        <p class="card-text ">IBM AIX V1 System Administrator</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card Narrower -->
+
+                        <!-- Card Narrower -->
+                        <div class="col-lg-2 col-md-2 mb-2 ">
+                            <div class="card card-cascade narrower ">
+                                <!-- Card image -->
+                                <div class="view view-cascade overlay text-center ">
+                                    <img src="https://dasaed.github.io/img/portfolio/cpr.jpg " class="img-fluid rounded mx-auto d-block " alt="Emergency Child Care First Aid and CPR/AED Level B ">
+                                    <a href=" ">
+                                        <div class="mask rgba-white-light "></div>
+                                    </a>
+                                </div>
+                                <!-- Card content -->
+                                <div class="card-body card-body-cascade ">
+                                    <div class="text-center ">
+                                        <p class="card-text ">Emergency Child Care First Aid and CPR/AED Level B </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card Narrower -->
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    <!-- </div> -->
+                    <div class="row ">
+                        <div class="col-md-12 ">
+
+                            <section id="four">
+                                <div class="text-center ">
+                                    <h2 class="font-weight-bold text-uppercase ">Extracurricular</h2>
+                                </div>
+                            </section>
+
+                        </div>
+                    </div>
+
+
+                    <div class="row mb-4 ">
+                        <!-- Card -->
+                        <div class="col-lg-3 col-md-6 mb-4 ">
+                            <div class="card card-image " style="background-image: url(https://dasaed.github.io/img/portfolio/opencv1.jpg); ">
+
+                                <!-- Content -->
+                                <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4 ">
+                                    <div>
+                                        <h5 class="cyan-text accent-2 "><i class="fas fa-eye "></i> Computer Vision </h5>
+                                        <h3 class="card-title pt-2 "><strong>Python+OpenCV</strong></h3>
+                                        <p>A series of python scripts for computer vision tasks, including some machine learning related applications.</p>
+                                        <a class="btn btn-cyan accent-2 " href="https://github.com/dasaed/computer_vision"><i class="fas fa-clone left "></i> View project</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- Card -->
+
+                        <!-- Card -->
+                        <div class="col-lg-3 col-md-6 mb-4 ">
+                            <div class="card card-image " style="background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg); ">
+
+                                <!-- Content -->
+                                <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4 ">
+                                    <div>
+                                        <h5 class="yellow-text "><i class="fas fa-business-time "></i> need2work </h5>
+                                        <h3 class="card-title pt-2 "><strong>Entrepreneurship Project</strong></h3>
+                                        <p> Our goal is to automate and simplify the employee management process for any sized businesses. We are working on getting the project started, but feel free to join our community and contribute to the project... </p>
+										 <a class="btn btn-yellow" href="https://need2.work"><i class="fas fa-clone left "></i> Check out the Community </a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- Card -->
+
+                        <!-- Card -->
+                        <div class="col-lg-3 col-md-6 mb-4 ">
+                            <div class="card card-image " style="background-image: url(https://dasaed.github.io/img/portfolio/code1.jpg); ">
+
+                                <!-- Content -->
+                                <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4 ">
+                                    <div>
+                                        <h5 class="light-green-text accent-4 "><i class="fab fa-node "></i> NodeJS </h5>
+                                        <h3 class="card-title pt-2 "><strong>Mastering the Back-End</strong></h3>
+                                        <p> I'm looking to expand my portfolio and offer a more diverse skill set. For this reason, I'm taking on a few courses on NodeJS and back-end development.</p>
+                                        <a class="btn btn-light-green accent-4" href="https://github.com/dasaed/Udemy_NodeJS"><i class="fas fa-clone left "></i> View project</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- Card -->
+                        <!-- Card -->
+                        <div class="col-lg-3 col-md-6 mb-4 ">
+                            <div class="card card-image " style="background-image: url(https://dasaed.github.io/img/portfolio/quick.jpg); ">
+
+                                <!-- Content -->
+                                <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4 ">
+                                    <div>
+                                        <h5 class="pink-text "><i class="fas fa-project-diagram "></i> Other Info </h5>
+                                        <h3 class="card-title pt-2 "><strong>Other Stuff I've done</strong></h3>
+                                        <p>
+                                            These are some older projects, and videos(in spanish), from various projects I've done in the past, where I've worked with a variety of technologies and programming softwares...
+                                        </p>
+										
+										
+										
+										
+										
+										
+										
+										
+								<!-- Button trigger modal -->
+                                <button type="button" class="btn pink" data-toggle="modal" data-target="#basicExampleModal2"><i class="fas fa-clone left "></i>View Other Projects!</button>
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="basicExampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title text-dark text-left
+												" id="exampleModalLabel2">Other Projects</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                            </div>
+                                            <div class="modal-body text-dark text-left">
+                                                <h6>AWARDS and ACHIEVEMENTS <i class="fas fa-award"></i> </h6>
+                                                <ul>
+                                                    <li>2016 Winner of Huawei's <em>Seeds for the Future</em> program in Colombia  
+                                                        <ul>
+														    <li>Watch my promotional video <a href="https://www.youtube.com/watch?v=-S0REFcD-tM">here</a></li>
+
+                                                            <li>Find a small article about the event <a href="https://www.elcolombiano.com/tecnologia/huawei-becas-semillas-del-futuro-en-colombia-JX6189496">here</a></li>
+															<li>Find more information about Huawei's iniciative 
+															<a href="https://www.huawei.com/ca/about-huawei/sustainability/win-win-development/social-contribution/seeds-for-the-future">here</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li>Faculty's GPA-based Scholarship
+                                                        <ul>
+                                                            <li>2013 - 2016 Scholarship winner for the highest grade in the faculty</li>
+                                                        </ul>
+                                                    </li>
+												</ul>
+												
+												<h6>OTHER PROJECTS <i class="fas fa-certificate"></i> </h6>
+												<ul>
+													<li>This very site <i class="fa fa-grin-wink"></i> (Code found <a href="https://github.com/dasaed/dasaed.github.io/">here</a>)</li>
+													<li>Designed a networking site for researchers as part of a course project. <a href="https://github.com/rubencg195/GRADREC ">Repository available here</a></li>
+												</ul>
+                                                
+                                               
+                                            </div>
+                                            <div class="modal-footer ">
+                                                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+								</div>
+
+
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- Card -->
+
+                    </div>
+
+
+
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </main>
     <!--Main layout-->
 
 
 
 
-<div class="row aqua-gradient ">
-        <div class="container ">
-                <div class="row ">
-                    <div class="col-md-12 ">
-                        <br>
-                        <div class="text-center "><h3 class="font-weight-bold text-uppercase text-white ">Certifications</h3></div>
-                    </div>
-                </div>
-                <!--Grid row-->
-                <div class="row ">
-
-                  <!--Grid column-->
-                  <div class="col-lg-2 col-md-12 mb-4 ">
-
-                    <!--Image-->
-                    <div class="view overlay z-depth-1-half ">
-                      <img src="https://dasaed.github.io/img/portfolio/suse.png " class="img-fluid "
-                        alt="SUSE Certified System Administrator in Linux 12 ">
-                      <a href=" ">
-                        <div class="mask rgba-white-light "></div>
-                      </a>
-                    </div>
-
-                  </div>
-                  <!--Grid column-->
-
-                  <!--Grid column-->
-                  <div class="col-lg-2 col-md-6 mb-4 ">
-
-                    <!--Image-->
-                    <div class="view overlay z-depth-1-half ">
-                      <img src="https://dasaed.github.io/img/portfolio/team.png " class="img-fluid "
-                        alt="IBM Team Solution Design Badge ">
-                      <a href=" ">
-                        <div class="mask rgba-white-light "></div>
-                      </a>
-                    </div>
-
-                  </div>
-                  <!--Grid column-->
-
-                  <!--Grid column-->
-                  <div class="col-lg-2 col-md-6 mb-4 ">
-
-                    <!--Image-->
-                    <div class="view overlay z-depth-1-half ">
-                      <img src="https://dasaed.github.io/img/portfolio/arq.png " class="img-fluid "
-                        alt="IBM Architectural Thinking Badge ">
-                      <a href=" ">
-                        <div class="mask rgba-white-light "></div>
-                      </a>
-                    </div>
-
-                  </div>
-                  <!--Grid column-->
-
-                  <!--Grid column-->
-                  <div class="col-lg-2 col-md-12 mb-4 ">
-
-                    <!--Image-->
-                    <div class="view overlay z-depth-1-half ">
-                      <img src="https://dasaed.github.io/img/portfolio/agile.png " class="img-fluid "
-                        alt="IBM Agile Practitioner ">
-                      <a href=" ">
-                        <div class="mask rgba-white-light "></div>
-                      </a>
-                    </div>
-
-                  </div>
-                  <!--Grid column-->
-
-                  <!--Grid column-->
-                  <div class="col-lg-2 col-md-6 mb-4 ">
-
-                    <!--Image-->
-                    <div class="view overlay z-depth-1-half ">
-                      <img src="https://dasaed.github.io/img/portfolio/AIX.png " class="img-fluid "
-                        alt="AIX V1 System Administrator Obtained in 2016 ">
-                      <a href=" ">
-                        <div class="mask rgba-white-light "></div>
-                      </a>
-                    </div>
-
-                  </div>
-                  <!--Grid column-->
-
-                  <!--Grid column-->
-                  <div class="col-lg-2 col-md-6 mb-4 ">
-
-                    <!--Image-->
-                    <div class="view overlay z-depth-1-half ">
-                      <img src="https://dasaed.github.io/img/portfolio/cpr.jpg " class="img-fluid "
-                        alt="Emergency Child Care First Aid and CPR/AED Level B ">
-                      <a href=" ">
-                        <div class="mask rgba-white-light "></div>
-                      </a>
-                    </div>
-
-                  </div>
-                  <!--Grid column-->
-
-                </div>
-                <!--Grid row-->
-
-              </div>
-
-</div>
-
-<div class="row ">
-    <div class="container ">
-        <div class="row ">
-            <div class="col-md-12 ">
-                <div class="text-center "><h3 class="font-weight-bold text-uppercase ">Projects (coming soon...)</h3></div>
-            </div>
-        </div>
-
-    </div>
-</div>
 
 
 
@@ -620,23 +959,19 @@
 
 
 
-
-
-
-    <br>
 
 
     <!-- Footer -->
     <footer class="page-footer font-small primary-color-dark lighten-3 pt-4 ">
 
         <!-- Footer Links -->
-        <div class="container text-center text-md-left ">
+        <div class="container text-center text-md-center ">
 
             <!-- Grid row -->
             <div class="row ">
 
                 <!-- Grid column -->
-                <div class="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1 ">
+                <div class="col-md-4 col-lg-4 mr-auto my-md-4 my-0 mt-4 mb-1 ">
 
                     <!-- Content -->
                     <h5 class="font-weight-bold text-uppercase mb-4 ">Favorite Quotes</h5>
@@ -650,32 +985,41 @@
                 <hr class="clearfix w-100 d-md-none ">
 
                 <!-- Grid column -->
-                <div class="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1 ">
+                <div class="col-md-2 col-lg-4 mx-auto my-md-4 my-0 mt-4 mb-1 ">
 
                     <!-- Links -->
-                    <h5 class="font-weight-bold text-uppercase mb-4 ">About</h5>
+                    <h5 class="font-weight-bold text-uppercase mb-4 ">Hobbies</h5>
 
                     <ul class="list-unstyled ">
                         <li>
                             <p>
-                                <a href="#! ">PROJECTS</a>
+                                <i class="fas fa-chess-king"></i> Chess <i class="fas fa-chess-queen"></i>
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                <i class="fas fa-chalkboard-teacher"></i> Learning New Coding Skills <i class="fas fa-user-graduate"></i>
+                            </p>
+                        </li>
+
+
+                        <li>
+                            <p>
+                                <i class="fas fa-puzzle-piece"></i> Puzzles <i class="fas fa-puzzle-piece"></i>
                             </p>
                         </li>
                         <li>
                             <p>
-                                <a href="#! ">ABOUT ME</a>
+
+                                <i class="fas fa-basketball-ball"></i>
+                                <i class="fas fa-football-ball"></i> Exercise
+                                <i class="fas fa-futbol"></i>
+                                <i class="fas fa-table-tennis"></i>
+
                             </p>
                         </li>
-                        <li>
-                            <p>
-                                <a href="#! ">My Blogs</a>
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                <a href="#! ">AWARDS</a>
-                            </p>
-                        </li>
+
                     </ul>
 
                 </div>
@@ -684,7 +1028,7 @@
                 <hr class="clearfix w-100 d-md-none ">
 
                 <!-- Grid column -->
-                <div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1 ">
+                <div class="col-md-4 col-lg-4 mx-auto my-md-4 my-0 mt-4 mb-1 ">
 
                     <!-- Contact details -->
                     <h5 class="font-weight-bold text-uppercase mb-4 ">Address</h5>
@@ -709,32 +1053,6 @@
                 <!-- Grid column -->
 
                 <hr class="clearfix w-100 d-md-none ">
-
-                <!-- Grid column -->
-                <div class="col-md-2 col-lg-2 text-center mx-auto my-4 ">
-
-                    <!-- Social buttons -->
-                    <h5 class="font-weight-bold text-uppercase mb-4 ">Social Networks</h5>
-
-                    <!-- Facebook -->
-                    <a type="button " class="btn-floating btn-fb ">
-                        <i class="fab fa-facebook-f "></i>
-                    </a>
-                    <!-- Twitter -->
-                    <a type="button " class="btn-floating btn-tw ">
-                        <i class="fab fa-twitter "></i>
-                    </a>
-                    <!-- Google +-->
-                    <a type="button " class="btn-floating btn-gplus ">
-                        <i class="fab fa-google-plus-g "></i>
-                    </a>
-                    <!-- Dribbble -->
-                    <a type="button " class="btn-floating btn-dribbble ">
-                        <i class="fab fa-dribbble "></i>
-                    </a>
-
-                </div>
-                <!-- Grid column -->
 
             </div>
             <!-- Grid row -->
@@ -790,13 +1108,70 @@
 
     <!-- SCRIPTS -->
     <!-- JQuery -->
-    <script type="text/javascript " src="js/jquery-3.4.0.min.js "></script>
+    <script type="text/javascript" src="js/jquery-3.4.0.min.js"></script>
     <!-- Bootstrap tooltips -->
-    <script type="text/javascript " src="js/popper.min.js "></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
     <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript " src="js/bootstrap.min.js "></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <!-- MDB core JavaScript -->
-    <script type="text/javascript " src="js/mdb.min.js "></script>
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+	
+	<!-- Custom Scripts -->
+	
+
+	<script type="text/javascript">
+	  function validateForm() {
+	  var name =  document.getElementById('name').value;
+	  if (name == "") {
+		  document.getElementById('status').innerHTML = "Name cannot be empty";
+		  return false;
+	  }
+	  var email =  document.getElementById('email').value;
+	  if (email == "") {
+		  document.getElementById('status').innerHTML = "Email cannot be empty";
+		  return false;
+	  } else {
+		  var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+		  if(!re.test(email)){
+			  document.getElementById('status').innerHTML = "Email format invalid";
+			  return false;
+		  }
+	  }
+	  var subject =  document.getElementById('subject').value;
+	  if (subject == "") {
+		  document.getElementById('status').innerHTML = "Subject cannot be empty";
+		  return false;
+	  }
+	  var message =  document.getElementById('message').value;
+	  if (message == "") {
+		  document.getElementById('status').innerHTML = "Message cannot be empty";
+		  return false;
+	  }
+	  document.getElementById('status').innerHTML = "Sending...";
+	  console.log('<a href="mailto:cdsalcedo@mun.ca?subject='+subject+'&body='+message+'%20'+email+'">' + 'Click here to send feedback' + '<~ez_lsquo+ez_rsquo~/a>')
+	  //document.write('<a href="mailto:' + email +'?subject='+subject+'&body=' +body+'">' + 'Click here to send feedback' + '<~ez_lsquo+ez_rsquo~/a>');
+	  //document.getElementById('contact-form').submit();
+	  console.log(name,email,subject,message)
+	  }
+	</script>
+	
+	<!--
+	<script type="text/javascript">
+		Email.send({
+			Host : "smtp.yourisp.com",
+			Username : "username",
+			Password : "password",
+			To : 'them@website.com',
+			From : "you@isp.com",
+			Subject : "This is the subject",
+			Body : "And this is the body"
+		}).then(
+		message => alert(message)
+		);
+	</script>
+	-->
+	
+	
 </body>
 <!--
     Handy info for myself :p
@@ -815,6 +1190,9 @@
 
 <i class="fas fa-coffee "></i>
 
+
+I'm using this to send emails :)
+https://www.smtpjs.com/
 
 
 
